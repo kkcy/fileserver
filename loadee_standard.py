@@ -9,7 +9,7 @@ sdk = chirpsdk.ChirpSDK('iRxy7msaMmn2xw3DG7TRxvnzA', 'cJJMu9ujBJ3WF1EE8z9pgh9Huy
 # chirp = sdk.create_chirp(sys.argv[1])
 chirp = sdk.create_chirp()
 
-# print chirp.identifier
+print chirp.identifier
 sdk.streaming_interval = 500
 sdk.start_streaming(chirp)
 
