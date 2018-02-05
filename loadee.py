@@ -9,7 +9,7 @@ sdk.set_protocol('ultrasonic')
 chirp = sdk.create_chirp(sys.argv[1])
 # chirp = sdk.create_chirp()
 
-# print chirp.identifier
+print chirp.identifier
 sdk.streaming_interval = 500
 sdk.start_streaming(chirp)
 
