@@ -1,7 +1,7 @@
 {
 	"results":{
-		"4D":{"date":"20190105","first_prize":"E7464","second_prize":"C1738","third_prize:"D4293","special_prize":["A4742","B9194","C1738","D4293","E7464","F5748","G4900","H8168","I9635","J8690","K1100","L4880","M6266"],"consolation_prize":["N4418","O8294","P5809","Q5286","R7854","S2222","T6981","U3481","V2926","W4745"]},
-		"5D":{"date":"20190105","first_prize":"39821","second_prize":"92668","third_prize:"57324"},
+		"4D":{"date":"20190105","first_prize":"E7464","second_prize":"C1738","third_prize":"D4293","special_prize":["A4742","B9194","C1738","D4293","E7464","F5748","G4900","H8168","I9635","J8690","K1100","L4880","M6266"],"consolation_prize":["N4418","O8294","P5809","Q5286","R7854","S2222","T6981","U3481","V2926","W4745"]},
+		"5D":{"date":"20190105","first_prize":"39821","second_prize":"92668","third_prize":"57324"},
 		"6D":{"date":"20190105","first_prize":"216824"},
 		"jackpot":[81,40,74,67,64],
 		"jppool":100000,
