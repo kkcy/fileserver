@@ -1,0 +1,42 @@
+{
+  "status": true,
+  "merchantId": "ff888888",
+  "transactions": [
+    {
+      "withdrawalId": "X8IM7SEScmm6",
+      "status": "SUCCESS",
+      "confirmedEpoch": 1551777719,
+      "createdEpoch": 1551777140,
+      "amount": "0.01",
+      "recipient": "1PyNuFPCPdSHPYHvGw7dWQDUGEW9aguYS9",
+      "txid": "b39792bee012e42617b9a25db82698dc535069f427e83930bcfbf33b0b7f5bf7"
+    },
+    {
+      "withdrawalId": "R1F7kfA4QasY",
+      "status": "SUCCESS",
+      "confirmedEpoch": 1551777719,
+      "createdEpoch": 1551777380,
+      "amount": "0.01",
+      "recipient": "1PyNuFPCPdSHPYHvGw7dWQDUGEW9aguYS9",
+      "txid": "dff2aef07d258989af83dedf23e3508827e019624740f41952062f1de4d8fd23"
+    },
+    {
+      "withdrawalId": "q5hVVDxVsB9R",
+      "status": "SUCCESS",
+      "confirmedEpoch": 1551777719,
+      "createdEpoch": 1551777411,
+      "amount": "0.01",
+      "recipient": "1PyNuFPCPdSHPYHvGw7dWQDUGEW9aguYS9",
+      "txid": "46e3e0001de55896d465e8a3d69c7b82cb31d9827c5fb9c3d23c10dbcd364e1f"
+    },
+    {
+      "withdrawalId": "OCy22oM3j2v3",
+      "status": "SUCCESS",
+      "confirmedEpoch": 1551873316,
+      "createdEpoch": 1551872463,
+      "amount": "0.01",
+      "recipient": "1PyNuFPCPdSHPYHvGw7dWQDUGEW9aguYS9",
+      "txid": "0a6bc148e32d9e8b1bd0899c4aac2a2eab828aa025d3c619a44cf32373e69a11"
+    }
+  ]
+}
