@@ -1,6 +1,6 @@
 {
   "status": true,
-  "orderId": {
+  "orderId": [
     "1234abcd": {
       "status": "CONFIRMED",
       "amount": "0.01",
@@ -25,5 +25,5 @@
       "confirmed": null,
       "ipnStatus": null
     }
-  }
+  ]
 }
