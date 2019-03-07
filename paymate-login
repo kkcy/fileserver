@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "isVerified": false,
+  "merchantId": "ff888888",
+  "name": "Matthew Pragasam",
+  "orgName": "WorldQuest International",
+  "usdtBal": "-3.78",
+  "orders": {
+    "confirmCount": 2,
+    "pendingCount": 1
+  },
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OTA4LCJpYXQiOjE1NTE4ODA2NDMsImV4cCI6MTU1MTg4MTU0M30.RbHTh1ah9RaqhumKV2vlwJn0Jrkq7XrTGIi2GfuaMik"
+}
