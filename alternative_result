@@ -1,7 +1,5 @@
 {
     "magnum":{
-        //delete repeat number in special
-        //same as macau lotto
         "date":"20190105",
         "first_prize":"E7464",
         "second_prize":"C1738",
@@ -18,7 +16,6 @@
         "consolation_prize":["4418","8294","5809","5286","7854","2222","6981","3481","2926","4745"],
     },
     "toto":{
-        //same as macau lotto
         "date":"20190105",
         "first_prize":"E7464",
         "second_prize":"C1738",
@@ -35,7 +32,6 @@
         "consolation_prize":["4418","8294","5809","5286","7854","2222","6981","3481","2926","4745"],
     },
     "sabah":{
-        //same as macau lotto
         "date":"20190105",
         "first_prize":"0292(292)",
         "second_prize":"7884(884)",
@@ -44,7 +40,6 @@
         "consolation_prize":["4418","8294","5809","5286","7854","2222","6981","3481","2926","4745"],
     },
     "stc":{
-        //same as macau lotto
         "date":"20190105",
         "first_prize":"0292",
         "second_prize":"7884",
