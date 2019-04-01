@@ -1,0 +1,216 @@
+/* Colors */
+@rouge: #b01218;
+@light-blue-grey: #d2d3d5;
+@white: #ffffff;
+@charcoal-grey: #4d4d4f;
+@battleship-grey: #797a7c;
+@cool-grey: #a8a9ac;
+@black: #1f1f1f;
+@very-light-pink: #f9f7f5;
+@white: #fafafa;
+@white: #f4f4f4;
+@crimson: #8c0005;
+@very-light-pink: #f0e7e7;
+@another-grey: #f0eeed;
+
+/* Backgrounds */
+.grey-bg {
+    background-color: @another-grey;
+}
+
+/* Text Styles */
+.sm-320pxheading-02() {
+    font-family: FranklinGothicURW-Boo;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: @white;
+}
+
+.sm-320pxproductive-heading-04() {
+    font-family: FranklinGothicURW-Boo;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #565656;
+}
+
+.heading-04 {
+    .sm-320pxproductive-heading-04()
+}
+
+.sm-320pxproductive-headings-05() {
+    font-family: FranklinGothicURW-Boo;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: 0.7px;
+    color: @black;
+}
+
+.sm-320pxproductive-headings-06 {
+    font-family: FranklinGothicURW-Med;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: 0.7px;
+    color: @black;
+}
+
+.sm-320pxbody-long-01() {
+    font-family: FranklinGothicURW-Boo;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.6px;
+    color: @black;
+}
+
+.long-01 {
+    .sm-320pxbody-long-01()
+}
+
+.sm-320pxbody-short-01() {
+    font-family: FranklinGothicURW-Boo;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.7px;
+    color: @black;
+}
+
+.sm-320pxbody-short-02() {
+    font-family: FranklinGothicURW-Dem;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.7px;
+    color: @black;
+}
+
+.sm-320pxbody-long-02() {
+    font-family: FranklinGothicURW-Med;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: @black;
+}
+
+.sm-320pxheading-01() {
+    font-family: FranklinGothicURW-Dem;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    color: @black;
+}
+
+.sm-320pxheading-03() {
+    font-family: FranklinGothicURW-Med;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 3px;
+    color: @black;
+}
+
+.sm-320pxcaption-01() {
+    font-family: FranklinGothicURW-Boo;
+    font-size: 13px;
+    line-height: 1.31;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: @rouge;
+}
+
+.sm-320pxlabel-02() {
+    font-family: FranklinGothicURW-Med;
+    font-size: 12px;
+    line-height: 1.83;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: @battleship-grey;
+}
+
+.sm-320pxlabel-01() {
+    font-family: FranklinGothicURW-Boo;
+    font-size: 11px;
+    line-height: 1.5;
+    letter-spacing: 2.2px;
+    text-align: center;
+    color: @white;
+}
+
+/* Elements */
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* Global gutter */
+@gutter-v: 8px;
+@gutter-h: 8px;
+
+.gaps-1x { height: @gutter-v }
+
+.gaps-2x { height: @gutter-v * 2 }
+
+.gaps-3x { height: @gutter-v * 3 }
+
+.gaps-4x { height: @gutter-v * 4 }
+
+.gaps-5x { height: @gutter-v * 5 }
+
+.gaps-6x { height: @gutter-v * 6 }
+
+.gaps-7x { height: @gutter-v * 7 }
+
+.gaps-8x { height: @gutter-v * 8 }
+
+.gaps-9x { height: @gutter-v * 9 }
+
+.gaps-10x { height: @gutter-v * 10 }
+
+// vertical margin
+.mv-1x {
+    margin-top: @gutter-v;
+    margin-bottom: @gutter-v;
+}
+.mv-2x {
+    margin-top: (@gutter-v * 2);
+    margin-bottom: (@gutter-v * 2);
+}
+.mv-3x {
+    margin-top: (@gutter-v * 3);
+    margin-bottom: (@gutter-v * 3);
+}
+// vertical padding
+.pv-1x {
+    padding-top: @gutter-v;
+    padding-bottom: @gutter-v;
+}
+.pv-2x {
+    padding-top: (@gutter-v * 2);
+    padding-bottom: (@gutter-v * 2);
+}
+.pv-3x {
+    padding-top: (@gutter-v * 3);
+    padding-bottom: (@gutter-v * 3);
+}
+.pv-8x {
+    padding-top: (@gutter-v * 8);
+    padding-bottom: (@gutter-v * 8);
+}
+
+
+// left margin
+.ml-1x {
+    margin-left: @gutter-h;
+}
+.ml-2x {
+    margin-left: @gutter-h * 2;
+}
+
+// right margin
+.mr-1x {
+    margin-right: @gutter-h;
+}
+.mr-2x {
+    margin-right: @gutter-h * 2;
+}
